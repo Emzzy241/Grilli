@@ -1471,11 +1471,31 @@ textarea.input-field {
   #MEDIA QUERIES
 \*-----------------------------------*/
 
+@media (max-width: 550px)
+{
+  /* .stats-list {
+    grid-template-columns: repeat(3, 1fr);
+} */
+  .starts-card{
+    font-size: 0.9rem;
+  }
+
+  .stats-list {
+    grid-template-columns: 1fr;
+}
+}
+
+
 /**
  * responsive for larger than 575px screen
  */
 
+
 @media (min-width: 575px) {
+
+  /* .stats-list {
+    grid-template-columns: repeat(3, 1fr);
+} */
 
   /**
    * CUSTOM PROPERTY
@@ -1490,6 +1510,7 @@ textarea.input-field {
     --fontSize-body-2: 2rem;
 
   }
+
 
 
 
@@ -1675,9 +1696,25 @@ textarea.input-field {
 
 @media (min-width: 768px) {
 
+   
+.starts-card{
+  font-size: 0.9rem;
+}
+
+
   /**
    * REUSED STYLE
    */
+
+/*    
+  .stats-list{
+    width: 100%;
+}
+   
+  .starts-card{
+    display: block;
+    width: 100%;
+} */
 
   .grid-list { grid-template-columns: 1fr 1fr; }
 
@@ -1765,7 +1802,10 @@ textarea.input-field {
 
 @media (min-width: 992px) {
 
-  /**
+  
+
+  /*
+  *
    * CUSTOM PROPERTY
    */
 
