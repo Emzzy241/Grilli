@@ -1520,10 +1520,10 @@ textarea.input-field {
 
   }
 
-   .menu-card img{
+   /* .menu-card img{
     height: 100px;
     width: 100px;
-  }
+  } */
 
 
 
@@ -1647,10 +1647,10 @@ textarea.input-field {
   .menu-card .badge { margin-block-start: 0; }
 
   
-  .menu-card img{
+  /* .menu-card img{
     height: 100px;
     width: 100px;
-  }
+  } */
 
   .menu-card .span {
     flex-grow: 1;
@@ -1722,10 +1722,10 @@ textarea.input-field {
 }
 
 
-.menu-card img{
+/* .menu-card img{
   height: 100px;
   width: 100px;
-}
+} */
 
   /**
    * REUSED STYLE
@@ -1827,11 +1827,11 @@ textarea.input-field {
 
 @media (min-width: 992px) {
 
-  .menu-card img{
+  /* .menu-card img{
     height: 100px;
     width: 100px;
   }
-  
+   */
 
   /*
   *
@@ -2016,11 +2016,11 @@ textarea.input-field {
     --fontSize-title-2: 2.5rem;
 
   }
-
+/* 
   .menu-card img{
     height: 100px;
     width: 100px;
-  }
+  } */
 
 
 
@@ -2188,10 +2188,10 @@ textarea.input-field {
 
   .navbar { margin-inline: auto; }
 
-  .menu-card img{
+  /* .menu-card img{
     height: 100px;
     width: 100px;
-  }
+  } */
 
 
   /**
