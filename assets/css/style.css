@@ -1632,6 +1632,12 @@ textarea.input-field {
 
   .menu-card .badge { margin-block-start: 0; }
 
+  
+  .menu-card img{
+    height: 100px;
+    width: 100px;
+  }
+
   .menu-card .span {
     flex-grow: 1;
     display: flex;
